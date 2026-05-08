@@ -65,6 +65,7 @@ Check ✅ Internet Information Services
 Expand: World Wide Web Services → Application Development Features
 Check ✅ CGI
 Click OK and wait for the install to finish
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 ✅ Verify: Open a browser inside the VM and go to 127.0.0.1 — the default IIS page should load.
@@ -74,14 +75,14 @@ From the osTicket-Installation-Files folder, run:
 PHPManagerForIIS_V1.5.0.msi
 Follow the default installer prompts to complete.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Show Image
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 Step 6 — Install the IIS Rewrite Module
 From the osTicket-Installation-Files folder, run:
 rewrite_amd64_en-US.msi
 Follow the default installer prompts to complete.
 
-Show Image
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Step 7 — Create C:\PHP and Extract PHP 7.3.8
 
@@ -91,9 +92,9 @@ From the osTicket-Installation-Files folder, extract:
    php-7.3.8-nts-Win32-VC15-x86.zip
 → Extract all contents directly into C:\PHP
 
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-Show Image
 
 Step 8 — Install VC Redistributable
 From the osTicket-Installation-Files folder, run:
@@ -102,7 +103,7 @@ Follow the default installer prompts to complete.
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
+
 
 Step 9 — Install MySQL 5.5.62
 From the osTicket-Installation-Files folder, run:
@@ -123,7 +124,7 @@ Click Execute → Finish
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
+
 
 Step 10 — Open IIS as Admin and Register PHP
 
@@ -136,7 +137,7 @@ Then reload IIS — in the right-side panel, click Stop, then Start.
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
+
 
 Step 11 — Install osTicket v1.15.8
 From the osTicket-Installation-Files folder:
@@ -149,7 +150,6 @@ Then reload IIS again (Stop and Start the server).
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
 
 Step 12 — Launch osTicket in the Browser
 
@@ -160,7 +160,6 @@ On the right panel, click "Browse *:80"
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
 
 Step 13 — Enable Required PHP Extensions
 Note that some extensions are not yet enabled. Fix this now:
@@ -180,7 +179,6 @@ Refresh the osTicket browser page — the extension checkmarks should update
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
 
 Step 14 — Rename ost-sampleconfig.php
 In File Explorer, navigate to:
@@ -193,7 +191,6 @@ To: ost-config.php
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
 
 Step 15 — Assign Permissions to ost-config.php
 
@@ -206,7 +203,7 @@ Check Full Control (all boxes) → Apply → OK
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
+
 
 Step 16 — Continue osTicket Setup in the Browser
 Click Continue on the osTicket browser setup page and fill in the top section:
@@ -214,7 +211,7 @@ FieldValueHelpdesk Name(Your choice)Default Email(Email address that will receiv
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
+
 
 Step 17 — Install HeidiSQL and Create the Database
 From the osTicket-Installation-Files folder, install HeidiSQL.
@@ -233,7 +230,7 @@ Name it: osTicket → Click OK
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
+
 
 Step 18 — Complete Installation in the Browser
 Back in the browser, fill in the Database Settings section:
@@ -241,7 +238,7 @@ FieldValueMySQL DatabaseosTicketMySQL UsernamerootMySQL Passwordroot
 Click "Install Now!"
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Show Image
+
 
 Step 19 — Installation Complete! 🎉
 Congratulations — osTicket is now installed with no errors!
@@ -250,4 +247,4 @@ PortalURL🔧 Staff / Admin Loginhttp://localhost/osTicket/scp/login.php🌐 End
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Show Image
+
