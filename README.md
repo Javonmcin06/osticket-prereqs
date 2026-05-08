@@ -19,10 +19,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Create an Azure Virtual Machine WINDOWS 11,4 vCPUS
-- Log into VM with Remote Destop
-- Download OsTicket
-- Install OsTicket Files
-- Item 5
+- Log into VM with Remote Desktop
+- IIS Installed
+- Windows 11 setup
 
 <h2>Installation Steps</h2>
 
