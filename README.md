@@ -74,6 +74,7 @@ Step 5 — Install PHP Manager for IIS
 From the osTicket-Installation-Files folder, run:
 PHPManagerForIIS_V1.5.0.msi
 Follow the default installer prompts to complete.
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -84,6 +85,7 @@ rewrite_amd64_en-US.msi
 Follow the default installer prompts to complete.
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 Step 7 — Create C:\PHP and Extract PHP 7.3.8
 
 Open File Explorer and create a new folder at: C:\PHP
