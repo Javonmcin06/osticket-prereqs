@@ -61,7 +61,7 @@ We will use the files in this folder to install osTicket and all of its dependen
 <h2>Step 4 — Install / Enable IIS with CGI</h2>
 IIS is required to host osTicket. CGI must be enabled for PHP to function.
 
-Open Control Panel → Programs → Turn Windows Features On or Off
+Open Control Panel → Programs → Turn Windows Features On or Off.
 Check ✅ Internet Information Services
 Expand: World Wide Web Services → Application Development Features
 Check ✅ CGI
