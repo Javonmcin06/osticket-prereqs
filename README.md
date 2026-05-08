@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-PHASE 1: Create Azure Virtual Machine
+Step 1 - Create Azure Virtual Machine
 Go to https://portal.azure.com and create a Virtual Machine running Windows 10 Pro, version 22H2. 
  Use at least 2 vCPUs and 16 GB of memory. 
 <br />
@@ -42,7 +42,7 @@ Go to https://portal.azure.com and create a Virtual Machine running Windows 10 P
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Log Into the VM via Remote Desktop
+Step 2 - Log Into the VM via Remote Desktop
 Copy the public IP address of your VM from the Azure portal and connect using Remote Desktop Connection (RDP).
 -On Windows: Search Remote Desktop Connection in the Start menu
 -Enter the VM's public IP, username labuser, and your password
