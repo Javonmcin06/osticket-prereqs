@@ -30,10 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 1 - Create Azure Virtual Machine
+<h2>Step 1 - Create Azure Virtual Machine</h2>
 Go to https://portal.azure.com and create a Virtual Machine running Windows 10 Pro, version 22H2. 
  Use at least 2 vCPUs and 16 GB of memory. 
 <br />
@@ -42,7 +39,7 @@ Go to https://portal.azure.com and create a Virtual Machine running Windows 10 P
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2 - Log Into the VM via Remote Desktop
+<h2>Step 2 - Log Into the VM via Remote Desktop</h2>
 Copy the public IP address of your VM from the Azure portal and connect using Remote Desktop Connection (RDP).
 -On Windows: Search Remote Desktop Connection in the Start menu
 -Enter the VM's public IP, username labuser, and your password
@@ -52,9 +49,10 @@ Copy the public IP address of your VM from the Azure portal and connect using Re
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Step 3 — Download the osTicket Installation Files
-Inside the VM, download the zip file below and unzip it to the Desktop:
-📥 osTicket-Installation-Files.zip
+Step 3 — Download the osTicket Installation Files Inside the VM.
+download the zip file below and unzip it to the Desktop:
+- https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+
 The extracted folder should be named: osTicket-Installation-Files
 
 We will use the files in this folder to install osTicket and all of its dependencies.
