@@ -18,14 +18,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
--Microsoft Azure Subscription
--IIS with CGI enabled
--PHP Manager for IIS
--IIS URL Rewrite Module
--PHP 7.3.8
--VC Redistributable (x86)
--MySQL 5.5.62
--HeidiSQL
+- Microsoft Azure Subscription
+- IIS with CGI enabled
+- PHP Manager for IIS
+- IIS URL Rewrite Module
+- PHP 7.3.8
+- VC Redistributable (x86)
+- MySQL 5.5.62
+- HeidiSQL
 
 <h2>Installation Steps</h2>
 
