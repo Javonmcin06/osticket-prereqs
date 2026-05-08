@@ -34,9 +34,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 PHASE 1: Create Azure Virtual Machine
-Go to https://portal.azure.com and create a Virtual Machine running Windows 10 Pro, version 22H2.  Use at least 2 vCPUs and 16 GB of memory. 
-Once created, connect to it via Remote Desktop (RDP) using the VM's public IP address.
-</p>
+Go to https://portal.azure.com and create a Virtual Machine running Windows 10 Pro, version 22H2. 
+ Use at least 2 vCPUs and 16 GB of memory. 
 <br />
 
 <p>
